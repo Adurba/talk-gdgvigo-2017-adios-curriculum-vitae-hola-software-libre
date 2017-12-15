@@ -1,0 +1,158 @@
+= Adios CV, Hola Software Libre
+:revnumber: {project-version}
+:example-caption!:
+ifndef::imagesdir[:imagesdir: images]
+ifndef::sourcedir[:sourcedir: ../java]
+:deckjs_transition: fade
+:navigation:
+:menu:
+:status:
+:adoctor: http://asciidoctor.org/[Asciidoctor]
+:gradle: http://gradle.org[Gradle]
+
+// De 15:30 á 16:30: 1 hora
+
+== E ti, ¿de quen ves sendo?
+
+image::costadamorte.jpg[background, size=cover]
+
+++++
+<style>
+.asciinema-terminal.font-medium {
+  font-size: 16px;
+}
+</style>
+
+<div class="pictureWrapper">
+   <div class="picture"><img src="images/mini-me.png"></div>
+</div>
+++++
+
+
+[source,groovy]
+----
+speaker = [
+    name: 'Antón R. Yuste',
+    company: 'Optare Solutions',
+    role: 'Technical Director',
+    twitter: '@antonmry',
+    github: 'antonmry',
+    extraDescription: ['VigoJUG co-organiser',
+         '''Misc OSS contribs (Gradle plugins,
+            docker images, SIP & WebRTC...)''',
+         'surfer wannabe',]
+].each{ k, v -> println "${k}:${v}" }
+----
+
+== Desatino 1: o SPT
+
+// SPTV: a importancia da comunidade
+image::bigfail3_big.gif[O SPT]
+
+== Conclusión
+
+// Contar a anécdota de Lucene
+Se non se ve, non existe.
+
+== Desatino 2: ¿ágape?
+
+// Curso Flash -> abrir o desarrollo, entón conseguir o emprego
+image::bigfail2_big.gif[Ágape]
+
+== Conclusión
+
+// Contar a anécdota de Lucene
+A comunicación é unha parte moi importante de calquer traballo e, as comunidades, un bo sitio para
+mellorar.
+
+== Desatino 3: inglis, pitinglis
+
+// Contar a experiencia de Optare en Suecia.
+// Optare como comunidade, o apoio.
+image::bigfail1.gif[inglis]
+
+== Conclusión
+
+Non tes que ser un Shakespeare, pero tes que manexarte co inglés.
+
+== Desatino 4: cárnicas, non gracias
+
+// Contar a experiencia da saida de Optare, para entrar nunha empresa que non é unha comunidade
+// A xente poñendo os seus intereses por diante dos da empresa
+image::bigfail4_big.gif[Cárnicas]
+
+== Conclusión
+
+// Se participas nunha comunidade, daste de conta de cómo teñen que ser as cousas
+// Contar o caso de Eloy?
+Se non hai comunidade, ¡é mellor saír por patas!
+
+== Desatino 5: ¡eu quero ir a ventas!
+
+// Despois da fase en Accenture, quemado, quería deixar a parte técnica e facer algo diferente
+image::surftogether_big.gif[Juniors e Seniors]
+
+== Conclusión
+
+// Contar o tema de Google e os certificados, e os juniors.
+Non é tan importante o que fas, coma con quén o fas.
+
+== Desatino 6: o bot en Go
+
+// Necesidade de desconectar, fixen o bot en Go, entón traballo... paseime de rosca
+image::bigfail5_big.gif[Cárnicas]
+
+== Conclusión
+
+Facer un proxecto persoal é unha boa forma de encontrar un bo traballo.
+
+== Desatino 7: o VigoJUG e VigoTech
+
+// Un dos maiores fracasos da miña carreira foi non contribuir máis no meu entorno
+// O problema do ego -> non teño tempo para axudar os demáis
+image::close_big.gif[Close]
+
+== Conclusión
+
+// Contar o caso de David García e a oportunidade que viu por ese lado
+A comunidade sempre retorna o que ti lle das, pero tes que estar positivo para velo.
+
+== Vixilancia
+
+- ¿Cando foi a última vez que estiveches nunha habitación sen un micro?.
+- ¿E se concederche un crédito dependera das tuas compras en Amazon?
+- ¿E se o precio do teu seguro de vida dependera de cantos pasos consigas no teu contador de pasos?
+- ¿E se o teu CV pasará o filtro dunha entrevista según o que vexas en Netflix?
+
+// Ostracismo social -> hai que usalos: whatsapp, tinder, etc.
+
+== Machine Learning e a ética
+
+// Lavar a ética das decisións
+// Non contratar o colectivo que teña máis días de baixa -> maximizar o beneficio -> deixamos as mulleres fora!!
+image::machinelearning.gif[Machine Learning]
+
+// Revolución industrial (desfases) -> nova revolución, a dos datos
+
+== Apache
+
+image::asf.png[Apache Software Foundation]
+
+== Mozilla (e Igalia)
+
+image::mozilla.png[Mozilla]
+
+== GSoC
+
+image::GSoC.png[Google Summer of Code]
+
+== ¡Gracias!
+
+image::questions.jpg[background, size=cover]
+
+* Slides:
+* Código:
+* Enlace Apache Foundation: http://apache.org/foundation/getinvolved.html
+* Enlace Mozilla: https://www.mozilla.org/en-US/contribute/
+* Enlace Google Summer of Code: https://developers.google.com/open-source/gsoc/
+* Tamén podes preguntarme en twitter: http://twitter.com/antonmry[@antonmry]
