@@ -150,9 +150,10 @@ image::GSoC.png[Google Summer of Code]
 
 image::questions.jpg[background, size=cover]
 
-* Slides:
-* Código:
-* Enlace Apache Foundation: http://apache.org/foundation/getinvolved.html
-* Enlace Mozilla: https://www.mozilla.org/en-US/contribute/
-* Enlace Google Summer of Code: https://developers.google.com/open-source/gsoc/
+* Slides: https://antonmry.github.io/talk-gdgvigo-2017-adios-curriculum-vitae-hola-software-libre/
+* Código: https://github.com/antonmry/talk-gdgvigo-2017-adios-curriculum-vitae-hola-software-libre
+* Apache Software Foundation: http://apache.org/foundation/getinvolved.html
+* Mozilla: https://www.mozilla.org/en-US/contribute/
+* Google Summer of Code: https://developers.google.com/open-source/gsoc/
+* Todas as imáxenes son de https://giphy.com
 * Tamén podes preguntarme en twitter: http://twitter.com/antonmry[@antonmry]

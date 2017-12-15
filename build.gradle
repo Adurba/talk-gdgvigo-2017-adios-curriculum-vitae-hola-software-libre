@@ -75,7 +75,7 @@ liveReload {
 }
 
 githubPages {
-    repoUri = 'git@github.com:antonmry/talk-vigotech-2017-introduction-to-apache-kafka.git'
+    repoUri = 'git@github.com:antonmry/talk-gdgvigo-2017-adios-curriculum-vitae-hola-software-libre.git'
 }
 
 download {
